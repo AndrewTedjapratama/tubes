@@ -1,0 +1,7 @@
+import os
+
+def clear_screen():
+    if os.name == 'nt': # Check if the OS is Windows
+        os.system('cls') # Clear screen (Windows)
+    else:
+        os.system('clear') # Clear screen (Unix)
