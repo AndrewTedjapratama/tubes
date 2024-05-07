@@ -32,4 +32,3 @@ def csv_to_dict(csv_string):
         csv_data.append(dict(zip(header, values)))
     return csv_data
 
-print(read_csv_file(r'data/csv/monster.csv'))

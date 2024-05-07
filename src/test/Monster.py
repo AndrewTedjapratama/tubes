@@ -41,5 +41,5 @@ def show_drink_potion(potion_type, monsterName):
 print(base_attribute(1))
 print(potion(500, 200, 'strength', 100))
 print(show_drink_potion('strength', 'Ambatron'))
-a#a
+#a
 
